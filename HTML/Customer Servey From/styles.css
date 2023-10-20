@@ -1,0 +1,77 @@
+.container
+{
+    background-color:#03adfc;
+    width: 50%; 
+    height: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#heading
+{
+    text-align: center;
+    padding-top: 20px;
+}
+body {
+    color: white;
+}
+.Name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gender-container {
+    display: flex;
+    align-items: center;
+}
+
+.gender-container p {
+    margin-right: 20px;
+}
+
+.gen {
+    width: 60px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+
+button {
+    padding: 10px 20px; 
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+
+#resetBtn {
+    background-color: #f00; 
+}
+
